@@ -6,8 +6,6 @@ I'm a CS student at USF who loves building things that make a difference. I’m 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Mahinur26&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Mahinur26&theme=dark&no-frame=false&no-bg=true&margin-w=4)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Mahinur26&limit=5&theme=dark&combine_all_yearly_contributions=true)
