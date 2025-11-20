@@ -17,7 +17,4 @@ I'm a CS student at USF who loves building things that make a difference. I’m 
 ---
 
 [![](https://visitcount.itsvg.in/api?id=Mahinur26&icon=0&color=0)](https://visitcount.itsvg.in)
-<br clear="both">
-
-![Snake dark](https://raw.githubusercontent.com/lghuy05/lghuy05/output/github-contribution-grid-snake-dark.svg)
 
