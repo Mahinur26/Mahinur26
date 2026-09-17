@@ -29,7 +29,7 @@
 
 ```yaml
 available commands:
-  whoami        : who I am, in four lines
+  whoami        : who I am, in three lines
   ls ~/projects : things I have built
   cat stack.txt : languages, frameworks, tools
   contact --all : where to find me
@@ -46,10 +46,9 @@ available commands:
 
 ```yaml
 Mahinur Mahi:
-  school   : University of South Florida — CS, sophomore
-  building : full-stack apps, and learning Spring Boot
-  learning : ML in Python, plus hardware that talks to the web
-  off-clock: sensors, solenoids, and small tools that get used
+  school   : University of South Florida - CS, Sophomore
+  building : Full-stack projects, and community platforms
+  learning : ML in Python, and real-world hardware solutions
 ```
 
 </details>
