@@ -23,7 +23,7 @@
 <samp>
 
 <details>
-<summary><a name="cmd-help"><img align="middle" src="assets/cmd-help.svg" height="34" alt="$ help"></a> &nbsp;<sub>start here</sub></summary>
+<summary><a name="cmd-help"><img align="middle" src="assets/cmd-help.svg" height="34" alt="$ help"></a> </summary>
 
 <br>
 
