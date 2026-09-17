@@ -5,6 +5,11 @@
     rectangles, so nothing depends on the reader having a braille font.
   · Do NOT switch the panels below to ```ansi blocks: GitHub does not render
     ANSI escapes in markdown, they show up as literal [38;5;209m text.
+  · The command chips are SVGs because GitHub offers no way to enlarge
+    <summary> text (styles are stripped; a heading's 24px margin drops the
+    disclosure triangle onto its own line). align="middle" centres the triangle
+    on the chip, and the href-less <a name> wrapper stops GitHub auto-linking
+    the image — an auto-linked chip opens the SVG instead of expanding.
   · Every "$ command" below is a <details> block: it expands inline, no JS.
     Those panels are ```yaml, so GitHub colours keys/values/comments for free
     and follows the reader's light or dark theme.
@@ -18,16 +23,16 @@
 <samp>
 
 <details>
-<summary><code> $ help </code> &nbsp;<sub>start here</sub></summary>
+<summary><a name="cmd-help"><img align="middle" src="assets/cmd-help.svg" height="34" alt="$ help"></a> &nbsp;<sub>start here</sub></summary>
 
 <br>
 
 ```yaml
 available commands:
-  whoami        : Who I am, in three lines
-  ls ~/projects : Project that I am proud of
-  cat stack.txt : Languages, frameworks, tools
-  contact --all : Where to find me
+  whoami        : who I am, in four lines
+  ls ~/projects : things I have built
+  cat stack.txt : languages, frameworks, tools
+  contact --all : where to find me
 
 # click any command to expand it · click again to collapse
 ```
@@ -35,34 +40,34 @@ available commands:
 </details>
 
 <details>
-<summary><code> $ whoami </code></summary>
+<summary><a name="cmd-whoami"><img align="middle" src="assets/cmd-whoami.svg" height="34" alt="$ whoami"></a></summary>
 
 <br>
 
 ```yaml
 Mahinur Mahi:
   school   : University of South Florida — CS, sophomore
-  building : Full-stack projects, and community platforms
-  learning : ML in Python, and real-world hardware soltions
+  building : full-stack apps, and learning Spring Boot
+  learning : ML in Python, plus hardware that talks to the web
+  off-clock: sensors, solenoids, and small tools that get used
 ```
 
 </details>
 
 <details>
-<summary><code> $ ls ~/projects </code></summary>
+<summary><a name="cmd-projects"><img align="middle" src="assets/cmd-projects.svg" height="34" alt="$ ls ~/projects"></a></summary>
 
 <br>
 
 | project | what it does | stack | |
 |---|---|---|---|
-| **[Brailliant](https://github.com/Mahinur26/Brailliant)** | text to physical braille converter | `FastAPI` `ESP32` | [repo](https://github.com/Mahinur26/Brailliant) · [demo](https://www.youtube.com/watch?v=eGkaFCZrKGw) |
-| **[RemindMe](https://github.com/Mahinur26/RemindMe)** | facial recognition for dementia patients | `MongoDB` `face_recognition` | [repo](https://github.com/Mahinur26/RemindMe) · [demo](https://www.youtube.com/watch?v=linq_8SJ1UM) |
-| **[HackUSF 2026](https://github.com/Jaehoonoo/HackUSF-2026)** | Tampa's largest hackathon | `Next.js` `Firebase` | [repo](https://github.com/Jaehoonoo/HackUSF-2026) · [live](https://2026.hackusf.com/)|
-| **[Poetic RNN](https://github.com/Mahinur26/Poetic-RNN)** | locally trained RNN on Shakespeare | `TensorFlow` `Python` | [repo](https://github.com/Mahinur26/Poetic-RNN) |
-| **[Food Pantry](https://github.com/Mahinur26/Food-Pantry)** | scans groceries, tracks expiry dates | `React` `YOLO` | [repo](https://github.com/Mahinur26/Food-Pantry)|
+| **[Brailliant](https://github.com/Mahinur26/Brailliant)** | camera or PDF in, braille dots out | `FastAPI` `ESP32` | [repo](https://github.com/Mahinur26/Brailliant) · [demo](https://www.youtube.com/watch?v=eGkaFCZrKGw) |
+| **[PathSense](https://github.com/Mahinur26/PathSense)** | LiDAR cane that steers by haptics | `SwiftUI` `ARKit` | [repo](https://github.com/Mahinur26/PathSense) |
+| **[Library Tracker](https://github.com/Mahinur26/USF-Library-Tracker)** | live floor counts from IR sensors | `Next.js` `Firebase` | [repo](https://github.com/Mahinur26/USF-Library-Tracker) |
+| **[Food Pantry](https://github.com/Mahinur26/Food-Pantry)** | scans groceries, tracks expiry dates | `React` `YOLO` | [repo](https://github.com/Mahinur26/Food-Pantry) · [live](https://food-pantry-eight.vercel.app) |
 
 <details>
-<summary><code> $ cat ~/projects/brailliant/README.md </code></summary>
+<summary><a name="cmd-cat"><img align="middle" src="assets/cmd-cat.svg" height="30" alt="$ cat ~/projects/brailliant/README.md"></a></summary>
 
 <br>
 
@@ -80,7 +85,7 @@ Brailliant:
 </details>
 
 <details>
-<summary><code> $ cat stack.txt </code></summary>
+<summary><a name="cmd-stack"><img align="middle" src="assets/cmd-stack.svg" height="34" alt="$ cat stack.txt"></a></summary>
 
 <br>
 
@@ -104,7 +109,7 @@ Brailliant:
 </details>
 
 <details>
-<summary><code> $ contact --all </code></summary>
+<summary><a name="cmd-contact"><img align="middle" src="assets/cmd-contact.svg" height="34" alt="$ contact --all"></a></summary>
 
 <br>
 
