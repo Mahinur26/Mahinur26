@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="89" height="28" viewBox="0 0 89 28" role="img" aria-label="$ whoami">
   <title>$ whoami</title>
   <style>
+    /* One fixed (dark) palette on purpose. In an img-embedded SVG each image
+       resolves prefers-color-scheme in its own isolated context, so the GitHub
+       iOS app rendered some chips light and others dark on the same page. */
     .chip{fill:#21262d} .edge{stroke:#30363d} .cmd{fill:#e6edf3} .sig{fill:#9bcb5a}
-    @media (prefers-color-scheme: light){
-      .chip{fill:#eff2f5} .edge{stroke:#d8dee4} .cmd{fill:#1f2328} .sig{fill:#1a7f37}
-    }
   </style>
   <rect class="chip" x="0.5" y="0.5" width="87.8" height="27" rx="8"/>
   <rect class="edge" x="0.5" y="0.5" width="87.8" height="27" rx="8" fill="none"/>

@@ -4,12 +4,9 @@
     .win{fill:#0d1117} .bar{fill:#191f28} .edge{stroke:#30363d} .title{fill:#8b949e}
     text{fill:#e6edf3} .art{fill:#8b949e} .dim{fill:#7d8590} .name{fill:#f0883e}
     .b{fill:#79c0ff} .g{fill:#9bcb5a} .t{fill:#2ed3c0} .v{fill:#c89be0} .cur{fill:#e6edf3}
-    /* follows the reader's system theme */
-    @media (prefers-color-scheme: light){
-      .win{fill:#ffffff} .bar{fill:#f0f2f5} .edge{stroke:#d8dee4} .title{fill:#59636e}
-      text{fill:#1f2328} .art{fill:#57606a} .dim{fill:#59636e} .name{fill:#bc4c00}
-      .b{fill:#0969da} .g{fill:#1a7f37} .t{fill:#117c6b} .v{fill:#8250df} .cur{fill:#1f2328}
-    }
+    /* One fixed (dark) palette on purpose. In an img-embedded SVG each image
+       resolves prefers-color-scheme in its own isolated context, so the GitHub
+       iOS app rendered the card light while some chips stayed dark. */
   </style>
 <defs>
 <filter id="sh" x="-10%%" y="-10%%" width="120%%" height="130%%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#000" flood-opacity="0.30"/></filter>
