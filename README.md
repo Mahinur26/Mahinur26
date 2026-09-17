@@ -23,7 +23,7 @@
 <samp>
 
 <details>
-<summary><a name="cmd-help"><img align="middle" src="assets/cmd-help.svg" height="34" alt="$ help"></a> </summary>
+<summary><a name="cmd-help"><img align="middle" src="assets/cmd-help.svg" height="28" alt="$ help"></a> &nbsp;<sub>start here</sub></summary>
 
 <br>
 
@@ -40,7 +40,7 @@ available commands:
 </details>
 
 <details>
-<summary><a name="cmd-whoami"><img align="middle" src="assets/cmd-whoami.svg" height="34" alt="$ whoami"></a></summary>
+<summary><a name="cmd-whoami"><img align="middle" src="assets/cmd-whoami.svg" height="28" alt="$ whoami"></a></summary>
 
 <br>
 
@@ -55,7 +55,7 @@ Mahinur Mahi:
 </details>
 
 <details>
-<summary><a name="cmd-projects"><img align="middle" src="assets/cmd-projects.svg" height="34" alt="$ ls ~/projects"></a></summary>
+<summary><a name="cmd-projects"><img align="middle" src="assets/cmd-projects.svg" height="28" alt="$ ls ~/projects"></a></summary>
 
 <br>
 
@@ -67,7 +67,7 @@ Mahinur Mahi:
 | **[Food Pantry](https://github.com/Mahinur26/Food-Pantry)** | scans groceries, tracks expiry dates | `React` `YOLO` | [repo](https://github.com/Mahinur26/Food-Pantry) · [live](https://food-pantry-eight.vercel.app) |
 
 <details>
-<summary><a name="cmd-cat"><img align="middle" src="assets/cmd-cat.svg" height="30" alt="$ cat ~/projects/brailliant/README.md"></a></summary>
+<summary><a name="cmd-cat"><img align="middle" src="assets/cmd-cat.svg" height="24" alt="$ cat ~/projects/brailliant/README.md"></a></summary>
 
 <br>
 
@@ -85,7 +85,7 @@ Brailliant:
 </details>
 
 <details>
-<summary><a name="cmd-stack"><img align="middle" src="assets/cmd-stack.svg" height="34" alt="$ cat stack.txt"></a></summary>
+<summary><a name="cmd-stack"><img align="middle" src="assets/cmd-stack.svg" height="28" alt="$ cat stack.txt"></a></summary>
 
 <br>
 
@@ -109,7 +109,7 @@ Brailliant:
 </details>
 
 <details>
-<summary><a name="cmd-contact"><img align="middle" src="assets/cmd-contact.svg" height="34" alt="$ contact --all"></a></summary>
+<summary><a name="cmd-contact"><img align="middle" src="assets/cmd-contact.svg" height="28" alt="$ contact --all"></a></summary>
 
 <br>
 
