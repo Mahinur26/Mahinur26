@@ -114,8 +114,8 @@ Brailliant:
 
 <pre>
 contact:
-  github  : <a href="https://github.com/Mahinur26">github.com/Mahinur26</a>
-  email   : mahinurmahi26@gmail.com
+  personal email   : mahinurmahi26@gmail.com
+  school email  : mahinur@usf.edu
   linkedin: <a href="https://www.linkedin.com/in/mahinur-mahi">linkedin.com/in/mahinur-mahi</a>
   status  : open to internships and side projects
 </pre>
