@@ -62,8 +62,8 @@ Mahinur Mahi:
 |---|---|---|---|
 | **[Brailliant](https://github.com/Mahinur26/Brailliant)** | camera or PDF in, braille dots out | `FastAPI` `ESP32` | [repo](https://github.com/Mahinur26/Brailliant) · [demo](https://www.youtube.com/watch?v=eGkaFCZrKGw) |
 | **[PathSense](https://github.com/Mahinur26/PathSense)** | LiDAR cane that steers by haptics | `SwiftUI` `ARKit` | [repo](https://github.com/Mahinur26/PathSense) |
-| **[Library Tracker](https://github.com/Mahinur26/USF-Library-Tracker)** | live floor counts from IR sensors | `Next.js` `Firebase` | [repo](https://github.com/Mahinur26/USF-Library-Tracker) |
-| **[Food Pantry](https://github.com/Mahinur26/Food-Pantry)** | scans groceries, tracks expiry dates | `React` `YOLO` | [repo](https://github.com/Mahinur26/Food-Pantry) · [live](https://food-pantry-eight.vercel.app) |
+| **[HackUSF 2026](https://github.com/Jaehoonoo/HackUSF-2026)** | Hackathon registration platform with 580+ applicants | `Next.js` `Firebase` | [repo](https://github.com/Jaehoonoo/HackUSF-2026) · [live](https://2026.hackusf.com/)  |
+| **[Food Pantry](https://github.com/Mahinur26/Food-Pantry)** | scans groceries, tracks expiry dates | `React` `YOLO` | [repo](https://github.com/Mahinur26/Food-Pantry) |
 
 <details>
 <summary><a name="cmd-cat"><img align="middle" src="assets/cmd-cat.svg" height="24" alt="$ cat ~/projects/brailliant/README.md"></a></summary>
